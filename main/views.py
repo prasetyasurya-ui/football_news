@@ -179,5 +179,5 @@ def add_news_entry_ajax(request):
     )
     new_news.save()
 
-    return HttpResponse(b"CREATED", status=201)
+    return HttpResponse("CREATED", status=201)
 
